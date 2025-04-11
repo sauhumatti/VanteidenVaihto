@@ -1,0 +1,993 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+================================================================
+File Summary
+================================================================
+
+Purpose:
+--------
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+
+File Format:
+------------
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Multiple file entries, each consisting of:
+  a. A separator line (================)
+  b. The file path (File: path/to/file)
+  c. Another separator line
+  d. The full contents of the file
+  e. A blank line
+
+Usage Guidelines:
+-----------------
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+
+Notes:
+------
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+
+Additional Info:
+----------------
+
+================================================================
+Directory Structure
+================================================================
+public/
+  file.svg
+  globe.svg
+  next.svg
+  vercel.svg
+  window.svg
+src/
+  app/
+    api/
+      detect-wheels/
+        route.ts
+      get-wheels/
+        route.ts
+    globals.css
+    layout.tsx
+    page.tsx
+.gitignore
+eslint.config.mjs
+next.config.ts
+package.json
+postcss.config.mjs
+README.md
+tsconfig.json
+
+================================================================
+Files
+================================================================
+
+================
+File: public/file.svg
+================
+<svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 13.5V5.41a1 1 0 0 0-.3-.7L9.8.29A1 1 0 0 0 9.08 0H1.5v13.5A2.5 2.5 0 0 0 4 16h8a2.5 2.5 0 0 0 2.5-2.5m-1.5 0v-7H8v-5H3v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1M9.5 5V2.12L12.38 5zM5.13 5h-.62v1.25h2.12V5zm-.62 3h7.12v1.25H4.5zm.62 3h-.62v1.25h7.12V11z" clip-rule="evenodd" fill="#666" fill-rule="evenodd"/></svg>
+
+================
+File: public/globe.svg
+================
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.27 14.1a6.5 6.5 0 0 0 3.67-3.45q-1.24.21-2.7.34-.31 1.83-.97 3.1M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.48-1.52a7 7 0 0 1-.96 0H7.5a4 4 0 0 1-.84-1.32q-.38-.89-.63-2.08a40 40 0 0 0 3.92 0q-.25 1.2-.63 2.08a4 4 0 0 1-.84 1.31zm2.94-4.76q1.66-.15 2.95-.43a7 7 0 0 0 0-2.58q-1.3-.27-2.95-.43a18 18 0 0 1 0 3.44m-1.27-3.54a17 17 0 0 1 0 3.64 39 39 0 0 1-4.3 0 17 17 0 0 1 0-3.64 39 39 0 0 1 4.3 0m1.1-1.17q1.45.13 2.69.34a6.5 6.5 0 0 0-3.67-3.44q.65 1.26.98 3.1M8.48 1.5l.01.02q.41.37.84 1.31.38.89.63 2.08a40 40 0 0 0-3.92 0q.25-1.2.63-2.08a4 4 0 0 1 .85-1.32 7 7 0 0 1 .96 0m-2.75.4a6.5 6.5 0 0 0-3.67 3.44 29 29 0 0 1 2.7-.34q.31-1.83.97-3.1M4.58 6.28q-1.66.16-2.95.43a7 7 0 0 0 0 2.58q1.3.27 2.95.43a18 18 0 0 1 0-3.44m.17 4.71q-1.45-.12-2.69-.34a6.5 6.5 0 0 0 3.67 3.44q-.65-1.27-.98-3.1" fill="#666"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+
+================
+File: public/next.svg
+================
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 394 80"><path fill="#000" d="M262 0h68.5v12.7h-27.2v66.6h-13.6V12.7H262V0ZM149 0v12.7H94v20.4h44.3v12.6H94v21h55v12.6H80.5V0h68.7zm34.3 0h-17.8l63.8 79.4h17.9l-32-39.7 32-39.6h-17.9l-23 28.6-23-28.6zm18.3 56.7-9-11-27.1 33.7h17.8l18.3-22.7z"/><path fill="#000" d="M81 79.3 17 0H0v79.3h13.6V17l50.2 62.3H81Zm252.6-.4c-1 0-1.8-.4-2.5-1s-1.1-1.6-1.1-2.6.3-1.8 1-2.5 1.6-1 2.6-1 1.8.3 2.5 1a3.4 3.4 0 0 1 .6 4.3 3.7 3.7 0 0 1-3 1.8zm23.2-33.5h6v23.3c0 2.1-.4 4-1.3 5.5a9.1 9.1 0 0 1-3.8 3.5c-1.6.8-3.5 1.3-5.7 1.3-2 0-3.7-.4-5.3-1s-2.8-1.8-3.7-3.2c-.9-1.3-1.4-3-1.4-5h6c.1.8.3 1.6.7 2.2s1 1.2 1.6 1.5c.7.4 1.5.5 2.4.5 1 0 1.8-.2 2.4-.6a4 4 0 0 0 1.6-1.8c.3-.8.5-1.8.5-3V45.5zm30.9 9.1a4.4 4.4 0 0 0-2-3.3 7.5 7.5 0 0 0-4.3-1.1c-1.3 0-2.4.2-3.3.5-.9.4-1.6 1-2 1.6a3.5 3.5 0 0 0-.3 4c.3.5.7.9 1.3 1.2l1.8 1 2 .5 3.2.8c1.3.3 2.5.7 3.7 1.2a13 13 0 0 1 3.2 1.8 8.1 8.1 0 0 1 3 6.5c0 2-.5 3.7-1.5 5.1a10 10 0 0 1-4.4 3.5c-1.8.8-4.1 1.2-6.8 1.2-2.6 0-4.9-.4-6.8-1.2-2-.8-3.4-2-4.5-3.5a10 10 0 0 1-1.7-5.6h6a5 5 0 0 0 3.5 4.6c1 .4 2.2.6 3.4.6 1.3 0 2.5-.2 3.5-.6 1-.4 1.8-1 2.4-1.7a4 4 0 0 0 .8-2.4c0-.9-.2-1.6-.7-2.2a11 11 0 0 0-2.1-1.4l-3.2-1-3.8-1c-2.8-.7-5-1.7-6.6-3.2a7.2 7.2 0 0 1-2.4-5.7 8 8 0 0 1 1.7-5 10 10 0 0 1 4.3-3.5c2-.8 4-1.2 6.4-1.2 2.3 0 4.4.4 6.2 1.2 1.8.8 3.2 2 4.3 3.4 1 1.4 1.5 3 1.5 5h-5.8z"/></svg>
+
+================
+File: public/vercel.svg
+================
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1155 1000"><path d="m577.3 0 577.4 1000H0z" fill="#fff"/></svg>
+
+================
+File: public/window.svg
+================
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 2.5h13v10a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1zM0 1h16v11.5a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 0 12.5zm3.75 4.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5M7 4.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m1.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5" fill="#666"/></svg>
+
+================
+File: src/app/api/detect-wheels/route.ts
+================
+import Replicate from 'replicate';
+import { NextRequest, NextResponse } from 'next/server';
+import { Buffer } from 'buffer'; // Import Buffer
+
+// Initialize Replicate client using the API token from environment variables
+const replicate = new Replicate({
+  auth: process.env.REPLICATE_API_TOKEN || '',
+});
+
+// Configuration - Could also read these from env vars if needed server-side
+const MODEL_OWNER = process.env.NEXT_PUBLIC_REPLICATE_MODEL_OWNER!;
+const MODEL_NAME = process.env.NEXT_PUBLIC_REPLICATE_MODEL_NAME!;
+const MODEL_VERSION = process.env.NEXT_PUBLIC_REPLICATE_MODEL_VERSION!;
+const PROMPT = process.env.NEXT_PUBLIC_PROMPT!;
+
+// --- Helper function to process ReadableStream ---
+async function processStream(stream: ReadableStream<Uint8Array>): Promise<Buffer> {
+    const reader = stream.getReader();
+    const chunks: Uint8Array[] = [];
+    console.log("API Route: Processing stream...");
+    while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        if (value) {
+            chunks.push(value);
+        }
+    }
+    const totalLength = chunks.reduce((sum, chunk) => sum + chunk.length, 0);
+    const combinedData = new Uint8Array(totalLength);
+    let offset = 0;
+    for (const chunk of chunks) {
+        combinedData.set(chunk, offset);
+        offset += chunk.length;
+    }
+    console.log("API Route: Stream processing complete.");
+    return Buffer.from(combinedData); // Convert Uint8Array to Buffer
+}
+// --- End Helper Function ---
+
+
+if (!process.env.REPLICATE_API_TOKEN) {
+  console.error("REPLICATE_API_TOKEN environment variable not set.");
+}
+if (!MODEL_VERSION || !MODEL_OWNER || !MODEL_NAME) {
+    console.error("Replicate model details missing in environment variables.");
+}
+if (!PROMPT) {
+    console.error("Prompt missing in environment variables.");
+}
+
+export async function POST(request: NextRequest) {
+  if (!process.env.REPLICATE_API_TOKEN) {
+    return NextResponse.json({ error: 'Server configuration error: Missing API Token' }, { status: 500 });
+  }
+  if (!MODEL_VERSION || !MODEL_OWNER || !MODEL_NAME || !PROMPT) {
+    return NextResponse.json({ error: 'Server configuration error: Missing Model/Prompt details' }, { status: 500 });
+  }
+
+  try {
+    const { imageBase64 } = await request.json();
+
+    if (!imageBase64 || !imageBase64.startsWith('data:image/')) {
+      return NextResponse.json({ error: 'Invalid image data provided' }, { status: 400 });
+    }
+
+    console.log(`API Route: Received image data (length: ${imageBase64.length}), calling Replicate...`);
+
+    // Run the Replicate model
+    const output = await replicate.run(
+      `${MODEL_OWNER}/${MODEL_NAME}:${MODEL_VERSION}`,
+      {
+        input: {
+          image: imageBase64,
+          text_prompt: PROMPT,
+        },
+      }
+    ); // Remove explicit typing here as output type varies
+
+    console.log("API Route: Replicate run finished. Checking output format...");
+
+    let maskUrl: string | null = null;
+
+    // --- NEW: Check if output is a ReadableStream ---
+    // Note: Checking for getReader is a common way to detect streams
+    if (output && typeof (output as any).getReader === 'function') {
+        console.log("API Route: Output is a ReadableStream. Processing...");
+        const maskBuffer = await processStream(output as ReadableStream<Uint8Array>);
+        console.log(`API Route: Stream processed into buffer (size: ${maskBuffer.length}). Converting to Base64 Data URL.`);
+        // Assuming the model outputs a PNG mask, adjust if necessary
+        maskUrl = `data:image/png;base64,${maskBuffer.toString('base64')}`;
+    }
+    // --- Fallback checks for older behavior (less likely for this model now) ---
+    else if (typeof output === 'string' && output.startsWith('http')) {
+        console.log("API Route: Output is a direct URL string.");
+        maskUrl = output;
+    } else if (typeof output === 'object' && output !== null && 'url' in output && typeof output.url === 'string') {
+        console.log("API Route: Output is an object with a URL property.");
+        maskUrl = output.url;
+    } else if (Array.isArray(output) && output.length > 0 && typeof output[0] === 'string' && output[0].startsWith('http')) {
+        console.log("API Route: Output is an array of URLs.");
+        maskUrl = output[0]; // Take the first one
+    } else {
+        console.error("API Route: Unexpected output format from Replicate:", output);
+        return NextResponse.json({ error: 'Unexpected output format received from Replicate API' }, { status: 500 });
+    }
+
+    if (!maskUrl) {
+      console.error("API Route: Mask URL could not be determined from Replicate output.");
+      return NextResponse.json({ error: 'Failed to retrieve or generate mask URL' }, { status: 500 });
+    }
+
+    // Log only the start of the Data URL if it's very long
+    const logUrl = maskUrl.startsWith('data:') ? `${maskUrl.substring(0, 100)}... (Data URL)` : maskUrl;
+    console.log(`API Route: Returning mask URL: ${logUrl}`);
+
+    return NextResponse.json({ maskUrl });
+
+  } catch (error: any) {
+    console.error('API Route Error:', error);
+    // Provide more specific error info if possible
+    const errorMessage = error.response?.data?.detail || error.message || 'An unexpected error occurred';
+    const status = error.response?.status || 500;
+    return NextResponse.json({ error: `Replicate API Error: ${errorMessage}` }, { status });
+  }
+}
+
+================
+File: src/app/api/get-wheels/route.ts
+================
+import { NextResponse } from 'next/server';
+import fs from 'fs/promises';
+import path from 'path';
+
+interface WheelData {
+  id: string;
+  name: string;
+  imageUrl: string;
+}
+
+function generateWheelName(filename: string): string {
+    const nameWithoutExtension = filename.replace(/\.(png|jpg|jpeg|webp)$/i, '');
+    return nameWithoutExtension
+        .replace(/[-_]/g, ' ')
+        .replace(/\b\w/g, char => char.toUpperCase());
+}
+
+export async function GET() {
+  const wheelsDirectory = path.join(process.cwd(), 'public', 'wheels');
+  const allowedExtensions = ['.png', '.jpg', '.jpeg', '.webp'];
+
+  try {
+    console.log(`API Route (get-wheels): Reading directory: ${wheelsDirectory}`);
+    const filenames = await fs.readdir(wheelsDirectory);
+
+    const wheelFiles = filenames.filter(file => {
+      const ext = path.extname(file).toLowerCase();
+      return allowedExtensions.includes(ext);
+    });
+
+    const wheelsData: WheelData[] = wheelFiles.map(filename => {
+      return {
+        id: filename,
+        name: generateWheelName(filename),
+        imageUrl: `/wheels/${filename}`,
+      };
+    });
+
+    console.log(`API Route (get-wheels): Found ${wheelsData.length} wheels.`);
+    return NextResponse.json(wheelsData);
+
+  } catch (error: any) {
+    if (error.code === 'ENOENT') {
+        console.warn(`API Route (get-wheels): Wheels directory not found at ${wheelsDirectory}. Returning empty list.`);
+        return NextResponse.json([]); 
+    }
+    console.error(`API Route (get-wheels): Error reading wheels directory:`, error);
+    return NextResponse.json({ error: 'Failed to list available wheels.' }, { status: 500 });
+  }
+}
+
+================
+File: src/app/globals.css
+================
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+================
+File: src/app/layout.tsx
+================
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "Create Next App",
+  description: "Generated by create next app",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        {children}
+      </body>
+    </html>
+  );
+}
+
+================
+File: src/app/page.tsx
+================
+// src/app/page.tsx
+'use client';
+
+import React, { useState, useRef, useEffect, useCallback } from 'react';
+
+// --- Configuration ---
+const MAX_IMAGE_DIMENSION = parseInt(process.env.NEXT_PUBLIC_MAX_IMAGE_DIMENSION || '1024');
+const MASK_ANALYSIS_THRESHOLD = 127;
+
+interface WheelData {
+  id: string;
+  name: string;
+  imageUrl: string;
+}
+
+interface DetectedWheel {
+  center: { x: number; y: number };
+  diameter: number;
+  originalBoundingBox: { x: number; y: number; width: number; height: number };
+}
+
+// REMOVE the hardcoded availableWheels array
+// const availableWheels: WheelData[] = [ ... ]; // DELETE THIS
+
+export default function HomePage() {
+  const [mainImageFile, setMainImageFile] = useState<File | null>(null);
+  const [mainImagePreviewUrl, setMainImagePreviewUrl] = useState<string | null>(null);
+  const [resizedImageDataUrl, setResizedImageDataUrl] = useState<string | null>(null);
+  const [outputImageUrl, setOutputImageUrl] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [error, setError] = useState<string | null>(null);
+  const [progressMessage, setProgressMessage] = useState<string>('');
+
+  // --- NEW State for dynamic wheels ---
+  const [availableWheels, setAvailableWheels] = useState<WheelData[]>([]);
+  const [wheelsLoading, setWheelsLoading] = useState<boolean>(true); // Loading state for wheels
+  const [wheelsError, setWheelsError] = useState<string | null>(null); // Error state for wheels
+
+  // --- Selected wheels now initialized to null ---
+  const [selectedWheel1, setSelectedWheel1] = useState<WheelData | null>(null);
+  const [selectedWheel2, setSelectedWheel2] = useState<WheelData | null>(null);
+  // --- End NEW State ---
+
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const originalImageRef = useRef<HTMLImageElement>(null);
+
+
+  // --- NEW: useEffect to fetch wheels on component mount ---
+  useEffect(() => {
+    const fetchWheels = async () => {
+      setWheelsLoading(true);
+      setWheelsError(null);
+      try {
+        const response = await fetch('/api/get-wheels');
+        if (!response.ok) {
+          throw new Error(`Failed to fetch wheels: ${response.statusText}`);
+        }
+        const wheelsData: WheelData[] = await response.json();
+        setAvailableWheels(wheelsData);
+
+        // Set default selections *after* fetching, if wheels exist
+        if (wheelsData.length > 0) {
+            setSelectedWheel1(wheelsData[0]);
+            setSelectedWheel2(wheelsData[0]);
+        } else {
+            console.warn("No wheels found in public/wheels directory.");
+            // Optionally set an error or message if no wheels are available
+            // setWheelsError("No wheels available to select.");
+        }
+
+      } catch (err: any) {
+        console.error("Error fetching wheels:", err);
+        setWheelsError(`Could not load wheels: ${err.message}`);
+        setAvailableWheels([]); // Ensure it's an empty array on error
+      } finally {
+        setWheelsLoading(false);
+      }
+    };
+
+    fetchWheels();
+  }, []); // Empty dependency array ensures this runs only once on mount
+
+  // --- Image Handling (handleFileChange - no changes needed) ---
+  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (file) {
+      setMainImageFile(file);
+      setOutputImageUrl(null);
+      setError(null);
+      setProgressMessage('');
+      setResizedImageDataUrl(null);
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setMainImagePreviewUrl(reader.result as string);
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  // --- Image Resizing (resizeImage - no changes needed) ---
+  const resizeImage = useCallback(async (imageDataUrl: string): Promise<string> => {
+    // ... (keep existing resizeImage function)
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.onload = () => {
+        let { width, height } = img;
+        let newWidth = width;
+        let newHeight = height;
+
+        if (width > MAX_IMAGE_DIMENSION || height > MAX_IMAGE_DIMENSION) {
+          const ratio = Math.min(MAX_IMAGE_DIMENSION / width, MAX_IMAGE_DIMENSION / height);
+          newWidth = Math.round(width * ratio);
+          newHeight = Math.round(height * ratio);
+          console.log(`Resizing input image from ${width}x${height} to ${newWidth}x${newHeight}`);
+        } else {
+            console.log(`Image dimensions (${width}x${height}) within limits. No resize needed for API.`);
+        }
+
+        const canvas = document.createElement('canvas');
+        canvas.width = newWidth;
+        canvas.height = newHeight;
+        const ctx = canvas.getContext('2d');
+        if (!ctx) {
+          reject(new Error('Could not get canvas context'));
+          return;
+        }
+        ctx.drawImage(img, 0, 0, newWidth, newHeight);
+        resolve(canvas.toDataURL('image/png'));
+      };
+      img.onerror = (err) => reject(new Error(`Failed to load image for resizing: ${err}`));
+      img.src = imageDataUrl;
+    });
+  }, []);
+
+  // --- Mask Analysis (analyzeMask - no changes needed) ---
+  const analyzeMask = useCallback(async (maskUrl: string, targetWidth: number, targetHeight: number): Promise<DetectedWheel[]> => {
+    // ... (keep existing analyzeMask function)
+      setProgressMessage('Analyzing segmentation mask...');
+      console.log("Analyzing mask:", maskUrl);
+      return new Promise((resolve, reject) => {
+          const maskImg = new Image();
+          maskImg.crossOrigin = "Anonymous";
+          maskImg.onload = () => {
+              console.log(`Mask image loaded: ${maskImg.width}x${maskImg.height}`);
+              const canvas = document.createElement('canvas');
+              canvas.width = targetWidth;
+              canvas.height = targetHeight;
+              const ctx = canvas.getContext('2d', { willReadFrequently: true });
+              if (!ctx) { reject(new Error("Could not get mask canvas context")); return; }
+              ctx.drawImage(maskImg, 0, 0, targetWidth, targetHeight);
+
+              try {
+                  const imageData = ctx.getImageData(0, 0, targetWidth, targetHeight);
+                  const data = imageData.data;
+                  const wheels: DetectedWheel[] = [];
+                  const visited = new Array(targetWidth * targetHeight).fill(false);
+                  const blobs: { minX: number, minY: number, maxX: number, maxY: number, count: number }[] = [];
+
+                  for (let y = 0; y < targetHeight; y++) {
+                      for (let x = 0; x < targetWidth; x++) {
+                          const index = (y * targetWidth + x);
+                          if (visited[index]) continue;
+                          const pixelIndex = index * 4;
+                          const isMaskPixel = data[pixelIndex] > MASK_ANALYSIS_THRESHOLD &&
+                                              data[pixelIndex + 1] > MASK_ANALYSIS_THRESHOLD &&
+                                              data[pixelIndex + 2] > MASK_ANALYSIS_THRESHOLD;
+
+                          if (isMaskPixel) {
+                              const currentBlob = { minX: x, minY: y, maxX: x, maxY: y, count: 0 };
+                              const queue = [{ x, y }];
+                              visited[index] = true;
+                              while (queue.length > 0) {
+                                  const { x: currentX, y: currentY } = queue.shift()!;
+                                  currentBlob.minX = Math.min(currentBlob.minX, currentX);
+                                  currentBlob.minY = Math.min(currentBlob.minY, currentY);
+                                  currentBlob.maxX = Math.max(currentBlob.maxX, currentX);
+                                  currentBlob.maxY = Math.max(currentBlob.maxY, currentY);
+                                  currentBlob.count++;
+                                  const neighbors = [ { x: currentX + 1, y: currentY }, { x: currentX - 1, y: currentY }, { x: currentX, y: currentY + 1 }, { x: currentX, y: currentY - 1 } ];
+                                  for (const neighbor of neighbors) {
+                                      const { x: nx, y: ny } = neighbor;
+                                      if (nx >= 0 && nx < targetWidth && ny >= 0 && ny < targetHeight) {
+                                          const neighborIndex = (ny * targetWidth + nx);
+                                          if (!visited[neighborIndex]) {
+                                              const neighborPixelIndex = neighborIndex * 4;
+                                              const isNeighborMask = data[neighborPixelIndex] > MASK_ANALYSIS_THRESHOLD && data[neighborPixelIndex + 1] > MASK_ANALYSIS_THRESHOLD && data[neighborPixelIndex + 2] > MASK_ANALYSIS_THRESHOLD;
+                                              if (isNeighborMask) { visited[neighborIndex] = true; queue.push(neighbor); }
+                                          }
+                                      }
+                                  }
+                              }
+                              if (currentBlob.count > 50) { blobs.push(currentBlob); }
+                          }
+                           visited[index] = true;
+                      }
+                  }
+                  console.log(`Found ${blobs.length} potential blobs.`);
+                  if (blobs.length === 0) { reject(new Error("No distinct wheel areas found in the mask. Try adjusting the prompt or check the mask image.")); return; }
+                  blobs.sort((a, b) => b.count - a.count);
+                  const topBlobs = blobs.slice(0, 2);
+                  topBlobs.sort((a, b) => (a.minX + a.maxX) / 2 - (b.minX + b.maxX) / 2);
+                  const detectedWheels = topBlobs.map(blob => {
+                      const width = blob.maxX - blob.minX + 1; const height = blob.maxY - blob.minY + 1;
+                      const centerX = blob.minX + width / 2; const centerY = blob.minY + height / 2;
+                      const diameter = Math.round((width + height) / 2);
+                      if (diameter <= 0) { console.warn("Detected blob with zero or negative diameter, skipping."); return null; }
+                      return { center: { x: Math.round(centerX), y: Math.round(centerY) }, diameter: diameter, originalBoundingBox: {x: blob.minX, y: blob.minY, width, height} };
+                  }).filter(wheel => wheel !== null) as DetectedWheel[];
+                  if (detectedWheels.length === 0) { reject(new Error("Could not extract valid wheel properties from the mask blobs.")); return; }
+                  if (detectedWheels.length === 1) { console.warn("Only one wheel detected in the mask."); }
+                  console.log("Detected wheel properties:", detectedWheels); resolve(detectedWheels);
+              } catch (error: any) { console.error("Error processing mask canvas data:", error); reject(new Error(`Failed to process mask image data: ${error.message}`)); }
+          };
+          maskImg.onerror = (err) => { console.error("Failed to load mask image from URL:", maskUrl, err); reject(new Error(`Failed to load mask image. Check CORS or URL. Error: ${err}`)); };
+          maskImg.src = maskUrl;
+      });
+  }, []);
+
+  // --- Image Compositing (generateOutputImage - no changes needed) ---
+  const generateOutputImage = useCallback(async (
+    baseImageDataUrl: string,
+    wheelPositions: DetectedWheel[],
+    wheel1Url: string,
+    wheel2Url: string
+  ): Promise<string> => {
+    // ... (keep existing generateOutputImage function)
+    setProgressMessage('Applying new wheels...');
+    console.log("Starting image compositing...");
+    const mainImg = await loadImage(baseImageDataUrl);
+    // Ensure wheel URLs are valid before loading
+    const wheel1Img = wheel1Url ? await loadImage(wheel1Url) : null;
+    const wheel2Img = wheel2Url ? await loadImage(wheel2Url) : null;
+    const canvas = canvasRef.current;
+    if (!canvas) throw new Error("Output canvas not found");
+    canvas.width = mainImg.naturalWidth; canvas.height = mainImg.naturalHeight;
+    console.log(`Output canvas set to: ${canvas.width}x${canvas.height}`);
+    const ctx = canvas.getContext('2d');
+    if (!ctx) throw new Error("Could not get output canvas context");
+    ctx.drawImage(mainImg, 0, 0, canvas.width, canvas.height);
+    const wheelsToDraw = [
+        { data: wheelPositions[0], img: wheel1Img },
+        ...(wheelPositions.length > 1 ? [{ data: wheelPositions[1], img: wheel2Img }] : []),
+    ];
+    for (const wheel of wheelsToDraw) {
+        if (!wheel.data || !wheel.img) continue; // Skip if position data or image is missing
+        const { center, diameter } = wheel.data;
+        if (diameter <= 0) { console.warn(`Skipping wheel draw due to invalid diameter: ${diameter}`); continue; }
+        const radius = diameter / 2;
+        const pasteX = Math.round(center.x - radius); const pasteY = Math.round(center.y - radius);
+        console.log(`Drawing wheel at (${pasteX}, ${pasteY}) with diameter ${diameter}`);
+        ctx.drawImage(wheel.img, pasteX, pasteY, diameter, diameter);
+    }
+    console.log("Compositing finished.");
+    return canvas.toDataURL('image/png');
+  }, []);
+
+  // --- Helper to load images (loadImage - no changes needed) ---
+  const loadImage = (src: string): Promise<HTMLImageElement> => {
+    // ... (keep existing loadImage function)
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.crossOrigin = "Anonymous";
+      img.onload = () => resolve(img);
+      img.onerror = (err) => {
+        console.error(`Failed to load image: ${src}`, err);
+        reject(new Error(`Failed to load image: ${src}. Error: ${err}`));
+      };
+      img.src = src;
+    });
+  };
+
+  // --- Main Workflow Trigger (handleSubmit - minor adjustments for wheel URLs) ---
+  const handleSubmit = async () => {
+    // Check if wheels are loaded and selected
+    if (!mainImageFile || !selectedWheel1 || !selectedWheel2) {
+      setError('Please select a main image and ensure both replacement wheels are selected.');
+      return;
+    }
+     // Also check if the selected wheels actually have image URLs (belt and braces)
+     if (!selectedWheel1.imageUrl || !selectedWheel2.imageUrl) {
+        setError('Selected wheels are missing image data. Please re-select or check available wheels.');
+        return;
+    }
+
+    setError(null);
+    setIsLoading(true);
+    setProgressMessage('Starting process...');
+    setOutputImageUrl(null);
+
+    try {
+      setProgressMessage('Resizing image...');
+      const resizedData = await resizeImage(mainImagePreviewUrl!);
+      setResizedImageDataUrl(resizedData);
+      const tempImg = await loadImage(resizedData);
+      const resizedWidth = tempImg.naturalWidth; const resizedHeight = tempImg.naturalHeight;
+      console.log(`Image resized to ${resizedWidth}x${resizedHeight} for API call.`);
+
+      setProgressMessage('Detecting wheels via Replicate...');
+      const response = await fetch('/api/detect-wheels', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ imageBase64: resizedData }),
+      });
+      const result = await response.json();
+      if (!response.ok) { throw new Error(result.error || `API request failed with status ${response.status}`); }
+      if (!result.maskUrl) { throw new Error("API did not return a mask URL."); }
+      console.log("Received mask URL:", result.maskUrl);
+
+      const wheelPositions = await analyzeMask(result.maskUrl, resizedWidth, resizedHeight);
+
+      setProgressMessage('Generating final image...');
+      // Pass the imageUrls from the selected wheel state objects
+      const finalImage = await generateOutputImage(
+        resizedData,
+        wheelPositions,
+        selectedWheel1.imageUrl, // Use URL from state
+        selectedWheel2.imageUrl  // Use URL from state
+      );
+
+      setOutputImageUrl(finalImage);
+      setProgressMessage('Done!');
+
+    } catch (err: any) {
+      console.error('Processing error:', err);
+      setError(`Error: ${err.message}`);
+      setProgressMessage('');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // --- JSX Rendering ---
+  return (
+    <div className="container mx-auto p-4 max-w-4xl">
+      <h1 className="text-3xl font-bold mb-6 text-center">Car Wheel Swapper</h1>
+
+      {/* Input Section */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 items-start">
+        {/* Main Image Upload */}
+        <div className="border p-4 rounded-lg shadow">
+          <h2 className="text-xl font-semibold mb-3">1. Upload Car Image</h2>
+          <input
+            type="file"
+            accept="image/png, image/jpeg, image/webp"
+            onChange={handleFileChange}
+            className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100 mb-4"
+            disabled={isLoading}
+          />
+          {mainImagePreviewUrl && (
+            <div>
+              <p className="text-sm mb-2">Preview:</p>
+              <img ref={originalImageRef} src={mainImagePreviewUrl} alt="Car preview" className="max-w-full h-auto rounded border" />
+            </div>
+          )}
+        </div>
+
+        {/* Wheel Selection */}
+        <div className="border p-4 rounded-lg shadow min-h-[200px]"> {/* Added min-height */}
+          <h2 className="text-xl font-semibold mb-3">2. Select Wheels</h2>
+          {/* Display loading/error state for wheels */}
+          {wheelsLoading && <p className="text-sm text-gray-500">Loading wheels...</p>}
+          {wheelsError && <p className="text-sm text-red-500">{wheelsError}</p>}
+
+          {!wheelsLoading && !wheelsError && availableWheels.length === 0 && (
+             <p className="text-sm text-orange-600">No wheel images found in the `/public/wheels` directory.</p>
+          )}
+
+          {/* Only show selectors if wheels are loaded and no error */}
+          {!wheelsLoading && !wheelsError && availableWheels.length > 0 && (
+             <>
+               {/* Wheel 1 */}
+               <div className="mb-4">
+                 <label htmlFor="wheel1-select" className="block text-sm font-medium text-gray-700 mb-1">Wheel 1 (Leftmost/Front)</label>
+                 <select
+                   id="wheel1-select"
+                   value={selectedWheel1?.id || ''} // Use optional chaining
+                   onChange={(e) => setSelectedWheel1(availableWheels.find(w => w.id === e.target.value) || null)}
+                   className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                   disabled={isLoading || wheelsLoading}
+                 >
+                   <option value="" disabled>Select a wheel</option>
+                   {availableWheels.map(wheel => (
+                     <option key={wheel.id} value={wheel.id}>{wheel.name}</option>
+                   ))}
+                 </select>
+                 {selectedWheel1 && <img src={selectedWheel1.imageUrl} alt={selectedWheel1.name} className="w-20 h-20 mt-2 border rounded object-contain" />}
+               </div>
+
+               {/* Wheel 2 */}
+               <div>
+                 <label htmlFor="wheel2-select" className="block text-sm font-medium text-gray-700 mb-1">Wheel 2 (Rightmost/Rear)</label>
+                 <select
+                   id="wheel2-select"
+                   value={selectedWheel2?.id || ''} // Use optional chaining
+                   onChange={(e) => setSelectedWheel2(availableWheels.find(w => w.id === e.target.value) || null)}
+                   className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                   disabled={isLoading || wheelsLoading}
+                 >
+                   <option value="" disabled>Select a wheel</option>
+                   {availableWheels.map(wheel => (
+                     <option key={wheel.id} value={wheel.id}>{wheel.name}</option>
+                   ))}
+                 </select>
+                 {selectedWheel2 && <img src={selectedWheel2.imageUrl} alt={selectedWheel2.name} className="w-20 h-20 mt-2 border rounded object-contain" />}
+               </div>
+             </>
+           )}
+        </div>
+      </div>
+
+      {/* Action Button */}
+      <div className="text-center mb-6">
+        <button
+          onClick={handleSubmit}
+          // Disable if loading, wheels loading, no image, or wheels not selected/available
+          disabled={isLoading || wheelsLoading || !mainImageFile || !selectedWheel1 || !selectedWheel2 || availableWheels.length === 0}
+          className="bg-green-600 hover:bg-green-700 disabled:bg-gray-400 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-150 ease-in-out"
+        >
+          {isLoading ? 'Processing...' : 'Generate Wheel Swap'}
+        </button>
+      </div>
+
+       {/* Progress & Error Display */}
+       {isLoading && <p className="text-center text-blue-600 mb-4">{progressMessage}</p>}
+       {error && <p className="text-center text-red-600 mb-4 font-semibold">{error}</p>}
+
+      {/* Output Section */}
+      <div className="border p-4 rounded-lg shadow min-h-[200px] flex flex-col items-center justify-center">
+        <h2 className="text-xl font-semibold mb-3 text-center">3. Result</h2>
+        {outputImageUrl ? (
+          <div className="text-center">
+            <canvas ref={canvasRef} style={{ display: 'none' }}></canvas>
+            <img src={outputImageUrl} alt="Car with swapped wheels" className="max-w-full h-auto rounded border mb-4 inline-block" />
+            <a href={outputImageUrl} download="car_with_new_wheels.png" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-150 ease-in-out">
+              Download Image
+            </a>
+          </div>
+        ) : (
+          !isLoading && <p className="text-gray-500 text-center">Output will appear here after generation.</p>
+        )}
+        {!outputImageUrl && <canvas ref={canvasRef} style={{ display: 'none' }}></canvas>}
+      </div>
+    </div>
+  );
+}
+
+================
+File: .gitignore
+================
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+================
+File: eslint.config.mjs
+================
+import { dirname } from "path";
+import { fileURLToPath } from "url";
+import { FlatCompat } from "@eslint/eslintrc";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+const compat = new FlatCompat({
+  baseDirectory: __dirname,
+});
+
+const eslintConfig = [
+  ...compat.extends("next/core-web-vitals", "next/typescript"),
+];
+
+export default eslintConfig;
+
+================
+File: next.config.ts
+================
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
+};
+
+export default nextConfig;
+
+================
+File: package.json
+================
+{
+  "name": "car-wheel-swapper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "replicate": "^1.0.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.17.30",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
+
+================
+File: postcss.config.mjs
+================
+const config = {
+  plugins: ["@tailwindcss/postcss"],
+};
+
+export default config;
+
+================
+File: README.md
+================
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+================
+File: tsconfig.json
+================
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+
+
+
+================================================================
+End of Codebase
+================================================================
